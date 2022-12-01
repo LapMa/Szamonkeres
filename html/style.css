@@ -1,11 +1,10 @@
 #content{
 	width: 888px;
 }
+#kep1{
+    margin-left:20px;
+}
 #imageright{
-	margin-left: 20px;
-    float: right;
-    width: 300px;
-    height: 400px;
     border-radius: 10px;
     border: 1px solid forestgreen;
 }
@@ -13,17 +12,20 @@ h1,h2{
     color: forestgreen;
     text-transform:uppercase;
 }
-#imageleft{
-	margin-right: 40px;
+#kep2{
+    margin-right: 40px;
     margin-bottom: 80px;
+}
+#imageleft{
     border-radius: 10px;
     border: 1px solid forestgreen;
-    float:left;
-    width: 300px;
+    width: 350px;
+    height: 260px;
 }
 .kepszoveg{
 	font-weight: bold;
     font-style: italic;
+    float: none;
 }
 a{
     color: black;
