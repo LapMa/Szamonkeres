@@ -1,3 +1,22 @@
+
+#1.Feladat
+"""
 nev = input('kérek egy vezetéknevet: ')
 nev2 = input('kérek egy kerszetnevet: ')
-print()
+print(f"Üdv, {nev} {nev2}")
+print(f"Üdv, {nev2} {nev}")"""
+
+#2Feladat
+"""
+szam = int(input("Kéregy egy számot: "))
+print("A megelöző szám:", (szam - 1))
+print("A megelöző szám:", (szam + 1))"""
+
+
+#3Feladat
+szam = int(input("Kérek egy számot"))
+szam2 = int(input("Kérek egy számot"))
+print("A két szám összege:",(szam + szam2))
+print("A két szám különbsége:", (szam - szam2))
+print("A két szám szorzata:" ,(szam * szam2))
+print("A két szám hányadosa:" (szam % szam2))
