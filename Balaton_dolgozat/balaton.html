@@ -86,8 +86,8 @@
             <p>A Balaton (költői nevén „a magyar tenger”, becenevén Balcsi, németül: Plattensee, latinul: Lacus Pelso, horvátul: Blatno jezero) tó a Dunántúlon, Közép-Európa legnagyobb tava, Magyarország vízrajzának meghatározó eleme. Könnyen felmelegedő, sekély vize kiválóan alkalmassá teszi a fürdésre és sportolásra, élővilága rendkívül gazdag, a táj változatos vulkanikus kúpjaival sok tekintetben egyedi.</p>
             <p>
               <blockquote>
-                            Magyar elnevezése a szláv „blato”, "boloto" (mocsár, láp, sár) szóból ered, amely viszont a görög "βαλτό"-ra vezethető vissza. Latin neve, a Lacus Pelso magyarul sekély tavat jelent. Szlovén, szerb, horvát nyelven Blatno jezero, szlovákul Blatenské jazero. Középkori térképeken gyakran „Balotin” vagy „Bolotin” (szláv balotnij = mocsaras) névváltozataban szerepel.</p>
-                          <p>Német elnevezése, a Plattensee, kicsit hasonlóképpen „lapos”, azaz sekély tavat jelent, egyben hangzásában közel áll a szláv névhez, ezért lehetséges, hogy kialakulásában a népi etimológia is szerepet játszott, azaz a német anyanyelvűek értelmet adtak a számukra idegen hangzású névnek (blatno – platten)</p>
+                <p>Magyar elnevezése a szláv „blato”, "boloto" (mocsár, láp, sár) szóból ered, amely viszont a görög "βαλτό"-ra vezethető vissza. Latin neve, a Lacus Pelso magyarul sekély tavat jelent. Szlovén, szerb, horvát nyelven Blatno jezero, szlovákul Blatenské jazero. Középkori térképeken gyakran „Balotin” vagy „Bolotin” (szláv balotnij = mocsaras) névváltozataban szerepel.</p>
+                <p>Német elnevezése, a Plattensee, kicsit hasonlóképpen „lapos”, azaz sekély tavat jelent, egyben hangzásában közel áll a szláv névhez, ezért lehetséges, hogy kialakulásában a népi etimológia is szerepet játszott, azaz a német anyanyelvűek értelmet adtak a számukra idegen hangzású névnek (blatno – platten)</p>
               </blockquote>
             <p>A Balaton és környéke Budapest mellett az ország turisztikailag leglátogatottabb területe, 2004-ben elnyerte az Örökségünk – Somogyország Kincse címet is. Környékén gyógyfürdők, termálforrások találhatók. A „Balaton fővárosa” címet hivatalosan Keszthely viseli, de Siófok a déli part, Balatonfüred pedig az északi part fővárosaként tekint magára.</p>
             <p>Minden évben megrendezik a tóhoz kapcsolódó három nagy tömegsporteseményt: a tókerülő Kékszalag Nemzetközi Vitorlásversenyt, a Révfülöp–Boglár közötti, a Balatont keresztben átszelő távúszóversenyt, legújabban pedig a Fonyód-Badacsony-Fonyód útvonalon bármilyen kézi hajtású vízi járművel a Balaton-átevezést.</p>
@@ -115,17 +115,17 @@
           <div class="row">
             <div class="col-4">
               <ul id="halLista" >
-                <li onmouseover="halinfo('balin');" >Balin</li>
-                <li onmouseover="halinfo('bodorka');">Bodorka</li>
-                <li onmouseover="halinfo('deverkeszeg');">Dévérkeszeg</li>
-                <li onmouseover="halinfo('karikakeszeg');">Karikakeszeg</li>
-                <li onmouseover="halinfo('ponty');">Ponty</li>
-                <li onmouseover="halinfo('fogassullo');">Fogassüllő</li>
-                <li onmouseover="halinfo('csuka');">Csuka</li>
-                <li onmouseover="halinfo('compo');">Compó</li>
-                <li onmouseover="halinfo('fejes');">Fejes domolykó</li>
-                <li onmouseover="halinfo('garda');">Garda</li>
-                <li onmouseover="halinfo('harcsa');">Hercsa</li>
+                <li onclick="halinfo('balin');">Balin</li>
+                <li onclick="halinfo('bodorka');">Bodorka</li>
+                <li onclick="halinfo('deverkeszeg');">Dévérkeszeg</li>
+                <li onclick="halinfo('karikakeszeg');">Karikakeszeg</li>
+                <li onclick="halinfo('ponty');">Ponty</li>
+                <li onclick="halinfo('fogassullo');">Fogassüllő</li>
+                <li onclick="halinfo('csuka');">Csuka</li>
+                <li onclick="halinfo('compo');">Compó</li>
+                <li onclick="halinfo('fejes');">Fejes domolykó</li>
+                <li onclick="halinfo('garda');">Garda</li>
+                <li onclick="halinfo('harcsa');">Hercsa</li>
               </ul>
             </div>
             <div class="col-8">
@@ -133,7 +133,7 @@
                 <div id="sugo">
                   Kattint halfaj nevére, amiről többet szeretnél megtudni...
                 </div>
-                <a target="_blank">
+                <a target="_blank" id="halURL">
                   <img id="halKep" class="figure-img rounded img-fluid w-100">
                 </a>
                 <figcaption id="halNevek" class="figure-caption text-center"></figcaption>
